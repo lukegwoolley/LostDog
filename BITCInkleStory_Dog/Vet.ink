@@ -4,6 +4,7 @@
 # If you have the rabbit you can return it (but you don't have to return it immediately)
 # Else she can give you a hint that she last saw it near the field
 # The vet can tell you that rabbits are really easily frightened
+# You also need to bring the cat here to return it?
 
 === Vet ===
 
