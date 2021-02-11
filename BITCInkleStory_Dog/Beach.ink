@@ -21,6 +21,7 @@ You can hear the waves lapping on the shore and the cry of gulls above.
 The tide is out with seaweed strewn about and the odd shiny pebble or shell peeking out of the sand. As you continue your walk you also notice... a fish? 
 Caught out by the tide it's just been left here, out on the sand.
 
+    *[Look around the beach] You ignore the fish in the sand and glance around, the sun shining down, fluffy clouds in the sky, it's a beautiful day. ->Beach
     *[Take the fish] You lean down and... pick up the fish... Sure, you can probably find a use for this. ~HaveFish = true 
     
 Fish in your pocket, you glance around the beach.
@@ -41,10 +42,10 @@ The dog seems reluctant to move from his spot though... maybe if you call out to
 
 =CallOut
     # If dog name not known
-    +[Call out to the dog] {!~Milo|Frank|Buddy|Spot}
+    *[Call out to the dog] {~Milo|Frank|Buddy|Spot}
     Not that one I guess...
     ->CallOut
-    +I should see if anyone around here know his name... ->Park
+    *I should see if anyone around here know his name... ->Park
     # If dog name known
    {SausageNameKnown} *I know your name! [] Come here Bandit! That's a good boy, let's get you home! ~GotSausage = true
    
