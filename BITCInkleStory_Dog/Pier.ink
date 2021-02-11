@@ -33,6 +33,11 @@ You smile at the fisherman as you turn to go back towards the green to look for 
 
 =GiveSausage
 
+As you step towards the fisherman, Bandit notices him and rushes off ahead. You smile as the dog's tail wags and the fisherman grins.
+"Thank you so much for bringing Bandit back to me! I don't know what I'd have done if he was lost for good"
+
+    {HaveFish}*"I uh, I would give you some fresh fish that you could cook up for you dinner tonight...[] but looks like you've already got yourself sorted for that. But truly, thank you for finding him" ->Park
+    *[The fisherman reaches back into his boat and hands a fish out to you] "I know it's not much, but this'll cook up lovely for supper if you fancy it, it's the absolute least I can do for you." ~HaveFish = true
 
 
 -> Park
